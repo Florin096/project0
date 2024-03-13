@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+.links{
+    text-align: right;
+    padding: 10px 20px;
+}
+
+.links a{
+    padding: 10px;
+}
+
+.input-search, .search-buttons{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#search-box{
+    width: 50%;
+    height: 50px;
+    align-items: center;
+    font-size: 16px;
+    padding-left: 25px;
+    border: 1px solid #ccc;
+    border-radius: 25px
+}
+
+.search-buttons input,#submit_btn_advanced {
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+}
+
+#find_pages{
+    margin-top: 50px;
+    margin-left: 25px;
+    font-size: 18px;
+}
+
+#search_all, #search_exact, #search_any, #search_none {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 20px;
+    padding: 5px;
+}
+#submit {
+    margin-top: 25px;
+    text-align: center;
+}
